@@ -7,65 +7,65 @@ import VidaAcademica from "./assets/vidaAcademica.png";
 
 export default function Cards(){
     return (
-<div class="cartoes container row mx-auto g-4">
+<div class="container row mx-auto g-4 m-5">
 
-        <div class="col-12 col-md-6 col-xl-4 pb-4">
-            <div class="card text-center ">
-                <img class="img-fluid img-card" src={Programacao} alt=""/>
-                <div class="card-header">
+        <div class="col-12 col-md-6 col-xl-4 pb-4 cartoes">
+            <div class="card text-center">
+                <img class="img-card" src={Programacao} alt=""/>
+                <div class="card-header ">
                     <h5 class="text-center">Programação</h5>
                     <p class="text-center">Minha história com a programação.</p>
-                    <a href="#" class="btn btn-primary">Clique aqui!</a>
+                    <a href="#" class="btn btn-secondary">Clique aqui!</a>
                 </div>
             </div>
         </div>
-        <div class="col-12 col-md-6 col-xl-4 pb-4">
+        <div class="col-12 col-md-6 col-xl-4 pb-4 cartoes">
             <div class="card text-center">
-                <img class="img-fluid img-card" src={VidaAcademica} alt=""/>
+                <img class="img-card" src={VidaAcademica} alt=""/>
                 <div class="card-header">
                     <h5 class="text-center">Vida Acadêmica</h5>
                     <p class="text-center">Minha história com a vida acadêmica.</p>
-                    <a href="#" class="btn btn-primary">Clique aqui!</a>
+                    <a href="#" class="btn btn-secondary">Clique aqui!</a>
                 </div>
             </div>
         </div>
-        <div class="col-12 col-md-6 col-xl-4 pb-4">
-            <div class="card text-center ">
-                <img class="img-fluid img-card" src={Desenho} alt=""/>
+        <div class="col-12 col-md-6 col-xl-4 pb-4 cartoes" >
+            <div class="card text-center">
+                <img class="img-card" src={Desenho} alt=""/>
                 <div class="card-header">
                     <h5 class="text-center">Desenho</h5>
                     <p class="text-center">Minha história com o desenho.</p>
-                    <a href="#" class="btn btn-primary">Clique aqui!</a>
+                    <a href="#" class="btn btn-secondary">Clique aqui!</a>
                 </div>
             </div>
         </div>
-        <div class="col-12 col-md-6 col-xl-4 pb-4">
-            <div class="card text-center ">
-                <img class="img-fluid img-card" src={Veganismo} alt=""/>
+        <div class="col-12 col-md-6 col-xl-4 pb-4 cartoes" >
+            <div class="card text-center">
+                <img class="img-card" src={Veganismo} alt=""/>
                 <div class="card-header">
                     <h5 class="text-center">Veganismo</h5>
                     <p class="text-center">Minha história com o veganismo.</p>
-                    <a href="#" class="btn btn-primary">Clique aqui!</a>
+                    <a href="#" class="btn btn-secondary">Clique aqui!</a>
                 </div>
             </div>
         </div>
-        <div class="col-12 col-md-6 col-xl-4 pb-4">
-            <div class="card text-center ">
-                <img class="img-fluid img-card" src={Duca} alt=""/>
+        <div class="col-12 col-md-6 col-xl-4 pb-4 cartoes" >
+            <div class="card text-center">
+                <img class="img-card" src={Duca} alt=""/>
                 <div class="card-header">
                     <h5 class="text-center">Duca</h5>
                     <p class="text-center">Minha história com a Duquinha.</p>
-                    <a href="#" class="btn btn-primary">Clique aqui!</a>
+                    <a href="#" class="btn btn-secondary">Clique aqui!</a>
                 </div>
             </div>
         </div>
-        <div class="col-12 col-md-6 col-xl-4 pb-4">
-            <div class="card text-center ">
-                <img class="img-fluid img-card" src={Violao} alt=""/>
+        <div class="col-12 col-md-6 col-xl-4 pb-4 cartoes" >
+            <div class="card text-center">
+                <img class="img-card" src={Violao} alt=""/>
                 <div class="card-header ">
                     <h5 class="text-center">Violão</h5>
                     <p class="text-center">Minha história com o violão.</p>
-                    <a href="#" class="btn btn-primary">Clique aqui!</a>
+                    <a href="#" class="btn btn-secondary">Clique aqui!</a>
                 </div>
             </div>
         </div>
