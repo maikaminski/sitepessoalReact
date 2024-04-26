@@ -7,6 +7,7 @@ import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import Inicio from "./Pages/Inicio"
 import SobreMim from "./Pages/SobreMim"
+import PaginaErro from "./Pages/PaginaErro"
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Inicio />}/>
         <Route path="/sobremim" element={<SobreMim />} />
-        <Route path="*" element={<div>pagina não encontrada</div>} />
+        <Route path="*" element={<PaginaErro />} />
       </Routes>
       </BrowserRouter>
 
