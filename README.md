@@ -20,12 +20,15 @@ Consiste em um site pessoal, mostrando a minha trajetória de vida, como entrei 
 
 ## Processos:
 
-Inicialmente criei uma página modelo, apenas com HTML e estilização com o Bootsrap. Na sequência, comecei a migração para o React.
-Foi criada a página inicial, com um banner de apresentação, um navbar superior, cards com os temas relacionados, uma sessão com as principais redes sociais e o rodapé.
+-Inicialmente criei uma página modelo, apenas com HTML e estilização com o Bootsrap. Na sequência, comecei a migração para o React.
+
+-Foi criada a página inicial, com um banner de apresentação, um navbar superior, cards com os temas relacionados, uma sessão com as principais redes sociais e o rodapé.
+
+-Foi criado um arquivo .json para colocar as informações dos cards da página principal dinamicamente.
+
 
 ## Próximos passos:
 -Criação das páginas dos cards;
--Refatoração do código com utilização de Context API para os cards;
 -Resolução do bug no BotaoToggler.
 
 ## Tecnologias utilizadas:

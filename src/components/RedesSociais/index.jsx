@@ -1,11 +1,12 @@
 import { BsLinkedin } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
 import { BsInstagram } from "react-icons/bs";
+import Titulo from "../Titulo";
 
 export default function RedesSociais() {
     return (
         <section class="redes p-5">
-            <h2 class="text-center py-3">Redes Sociais</h2>
+            <Titulo>Redes Sociais</Titulo>
             <div class="d-flex flex-column gap-3 flex-lg-row align-items-center justify-content-center">
                 <div class="div_redes text-center fs-5">
                     <BsLinkedin />
