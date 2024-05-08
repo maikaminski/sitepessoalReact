@@ -35,13 +35,7 @@ Consiste em um site pessoal, mostrando a minha trajetória de vida, como entrei 
 ## Próximos passos:
 
 -Criação das páginas dos cards;
-<<<<<<< HEAD
-=======
 
--Refatoração do código com utilização de Context API para os cards;
-
->>>>>>> fa4140a653ca7aa5b115600cf611f8f3cd205eb4
--Resolução do bug no BotaoToggler.
 
 ## Tecnologias utilizadas:
 
