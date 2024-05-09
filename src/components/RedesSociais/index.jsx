@@ -1,7 +1,11 @@
-import { BsLinkedin } from "react-icons/bs";
-import { BsGithub } from "react-icons/bs";
-import { BsInstagram } from "react-icons/bs";
 import Titulo from "../Titulo";
+import RedesSociaisLinks from "./RedesSociaisLinks";
+
+const linksRedes = [
+    { name: "Linkedin", path: "https://www.linkedin.com/in/maikaminski/" },
+    { name: "GitHub", path: "https://github.com/maikaminski" },
+    { name: "Instagram", path: "https://www.instagram.com/maikaminski/" },
+];
 
 export default function RedesSociais() {
     return (
@@ -9,21 +13,9 @@ export default function RedesSociais() {
             <Titulo>Redes Sociais</Titulo>
             <div class="d-flex flex-column gap-3 flex-lg-row align-items-center justify-content-center">
                 <div class="div_redes text-center fs-5">
-                    <BsLinkedin />
-                    <a href="https://www.linkedin.com/in/maikaminski/"
-                        class="ms-2 text-decoration-none text-reset">LinkedIn </a>
-
-                </div>
-                <div class="div_redes text-center fs-5">
-                    <BsGithub />
-                    <a href="https://github.com/maikaminski" 
-                        class="ms-2 text-decoration-none text-reset">GitHub</a>
-
-                </div>
-                <div class="div_redes text-center fs-5">
-                    <BsInstagram />
-                    <a href="https://www.instagram.com/maikaminski/"
-                        class="ms-2 mt-2 text-decoration-none text-reset">Instagram</a>
+                    {linksRedes.map((link) => (
+                        <RedesSociaisLinks key={link.path} link={link} />
+                    ))}
 
                 </div>
             </div>
