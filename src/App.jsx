@@ -1,13 +1,14 @@
-import Banner from "./components/Banner"
-import Cards from "./components/Cards"
-import Navbar from "./components/NavBar"
-import RedesSociais from "./components/RedesSociais"
-import Rodape from "./components/Rodape"
+
 import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import Inicio from "./Pages/Inicio"
 import SobreMim from "./Pages/SobreMim"
 import PaginaErro from "./Pages/PaginaErro"
+import Programacao from "./Pages/Programacao"
+import VidaAcademica from "./Pages/VidaAcademica"
+import Desenho from "./Pages/Desenho"
+import Duca from "./Pages/Duca"
+import Violao from "./Pages/Violao"
 
 function App() {
   return (
@@ -17,6 +18,11 @@ function App() {
         <Route path="/" element={<Inicio />}/>
         <Route path="/sobremim" element={<SobreMim />} />
         <Route path="*" element={<PaginaErro />} />
+        <Route path="programacao" element={<Programacao />} />
+        <Route path="vidaacademica" element={<VidaAcademica />} />
+        <Route path="desenho" element={<Desenho />} />
+        <Route path="duca" element={<Duca />} />
+        <Route path="violao" element={<Violao />} />
       </Routes>
       </BrowserRouter>
 

@@ -4,41 +4,47 @@
         "src": "/assets/teclas.png",
         "alt": "Teclas de computador",
         "titulo": "Programação",
-        "descricao": "Minha história com a programação"
+        "descricao": "Minha história com a programação",
+        "pages":"programacao"
     },
     {
         "id": 2,
         "src": "/assets/vidaAcademica.png",
         "alt": "Imagem de livros em uma mesa",
         "titulo": "Vida Acadêmica",
-        "descricao": "Minha história com a Vida Acadêmica" 
+        "descricao": "Minha história com a Vida Acadêmica",
+        "pages":"vidaacademica"
     },
     {
         "id": 3,
         "src": "/assets/girassol.png",
         "alt": "pintura de girassóis em uma parede",
         "titulo": "Desenho",
-        "descricao": "Minha história com o desenho"
+        "descricao": "Minha história com o desenho",
+        "pages":"desenho"
     },
     {
         "id": 4,
         "src": "/assets/veganismo.png",
         "alt": "Imagem de vegetais e escrito go vegan no centro",
         "titulo": "Veganismo",
-        "descricao": "Minha história com o veganismo"
+        "descricao": "Minha história com o veganismo",
+        "pages":"veganismo"
     },
     {
         "id": 5,
         "src": "/assets/duca.png",
         "alt": "Foto de uma cadela vira-lata branca com amarelo",
         "titulo": "Duca",
-        "descricao": "Minha história com a Duca"
+        "descricao": "Minha história com a Duca",
+        "pages":"duca"
     },
     {
         "id": 6,
         "src": "/assets/violao.png",
         "alt": "Imagem de um violão visto de perto",
         "titulo": "Violão",
-        "descricao": "Minha história com o violão"
+        "descricao": "Minha história com o violão",
+        "pages":"violao"
     }
 ]

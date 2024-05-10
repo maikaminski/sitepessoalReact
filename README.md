@@ -31,10 +31,14 @@ Consiste em um site pessoal, mostrando a minha trajetória de vida, como entrei 
 
 -Foi criado um arquivo .json para colocar as informações dos cards da página principal dinamicamente.
 
+-Foi criada a página de Sobre Mim, com o texto apresentando um pouco da minha trajetória de vida.
+
+-Foram criadas as rotas para as páginas referentes aos cards.
+
 
 ## Próximos passos:
 
--Criação das páginas dos cards;
+-Preenchimento das páginas dos cards, com as informações e imagens de cada tema;
 
 
 ## Tecnologias utilizadas:
@@ -52,15 +56,15 @@ Consiste em um site pessoal, mostrando a minha trajetória de vida, como entrei 
 
 -Clone o repositório:
 
-git clone: https://github.com/maikaminski/sitepessoalReact
+git clone https://github.com/maikaminski/sitepessoalReact
 
 -Instale as dependências:
 
-git install
+npm install
 
 -Inicie o projeto:
 
-git run dev.
+npm run dev.
 
 
 <p align="center">Desenvolvido por Maíra Kaminski</p>

@@ -1,8 +1,9 @@
+import { Link } from "react-router-dom";
 
-export default function BotaoCards() {
+export default function BotaoCards({ pages }) {
     return (
     
-    <a href="#" class="btn btn-secondary">Clique aqui!</a>
+    <Link to={pages} className="btn btn-secondary">Clique aqui!</Link>
 )
 }
 
