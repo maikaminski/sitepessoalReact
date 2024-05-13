@@ -33,12 +33,18 @@ Consiste em um site pessoal, mostrando a minha trajetória de vida, como entrei 
 
 -Foi criada a página de Sobre Mim, com o texto apresentando um pouco da minha trajetória de vida.
 
--Foram criadas as rotas para as páginas referentes aos cards.
+-Foram criadas as rotas para as páginas referentes aos cards com React-router-dom.
+
+-Foi criada a página com a história da Duca, com imagens e texto.
 
 
 ## Próximos passos:
 
 -Preenchimento das páginas dos cards, com as informações e imagens de cada tema;
+
+-Melhorar a estilização;
+
+-Criar um botão de voltar ao início da página;
 
 
 ## Tecnologias utilizadas:
