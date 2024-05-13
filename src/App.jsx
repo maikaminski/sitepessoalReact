@@ -9,6 +9,7 @@ import VidaAcademica from "./Pages/VidaAcademica"
 import Desenho from "./Pages/Desenho"
 import Duca from "./Pages/Duca"
 import Violao from "./Pages/Violao"
+import Veganismo from "./Pages/Veganismo";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="programacao" element={<Programacao />} />
         <Route path="vidaacademica" element={<VidaAcademica />} />
         <Route path="desenho" element={<Desenho />} />
+        <Route path="veganismo" element={<Veganismo />} />
         <Route path="duca" element={<Duca />} />
         <Route path="violao" element={<Violao />} />
       </Routes>
