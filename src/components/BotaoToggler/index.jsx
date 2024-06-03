@@ -3,12 +3,11 @@ export default function BotaoToggler() {
         <button
       className="navbar-toggler"
       type="button"
-      data-bs-toggle="collapse"
-      data-bs-target="#conteudoBarraNavegacao"
-      aria-controls="conteudoBarraNavegacao"
-      aria-expanded="false"
-      aria-label="Botão do menu navegação"
+      data-toggle="collapse"
+      data-target="conteudoBarraNavegacao"
+    
     >
+    
       <span className="navbar-toggler-icon"></span>
     </button>
     )

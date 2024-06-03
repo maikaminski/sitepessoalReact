@@ -1,7 +1,25 @@
+
 .img-card {
     height: 300px;
 }
 
-.div_redes {
-    width: 325px;
+
+.icones {
+    list-style: none;
+    width: 25px;
+}
+.icone{
+    width: 25px;
+}
+.links {
+    list-style: none;
+    font-weight: bold;
+    color: #fff;
+}
+
+.cartoes {
+    border-radius: 9px 9px 0 0;
+}
+.fundo {
+    background-image: linear-gradient(90deg, var(--cor-de-fundo) 35%, var(--cinza) 65%);
 }

@@ -16,8 +16,8 @@ export default function Duca() {
         <>
         <Navbar />
         <Titulo>Como eu conheci a Duca, e como ela se tornou o grande amor da minha vida</Titulo>
-        <div className="m-5 text-center fs-5">
-            <h3>Como ela chegou:</h3>
+        <div className=" text-center fs-5 fundo text-light">
+            <h3 >Como ela chegou:</h3>
             <p>Saída de um buraco, em meio à neve que caiu em Guarapuava/PR em 2013, magrela, zóiuda, sofrida... Esse pedacinho de amor sobrevivente, veio parar em nossa casa!</p>
             <img src={duca4} alt="" className="w-50 rounded mx-auto d-block mb-4 mb-4"/>
             <p>Sempre gostei muito de animais. Desde os considerados de estimação, como cães e gatos, até os de produção, como galinhas, vacas, porcos, e mesmo os sinantrópicos, como ratos, pombos e insetos, sempre receberam um olhar de respeito de carinho da minha parte. Toda a parte da minha vida compartilhada com a família, sempre contou com um animal de estimação, muito bem cuidados e amados, como membros da família mesmo.</p>
