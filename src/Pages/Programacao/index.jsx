@@ -2,12 +2,14 @@ import Navbar from "../../components/NavBar";
 import RedesSociais from "../../components/RedesSociais";
 import Rodape from "../../components/Rodape";
 import Titulo from "../../components/Titulo";
+import Banner from "../../components/Banner";
 
 export default function Programacao() {
     return (
         <>
             <Navbar />
-            <div>
+            <div className=" text-center fs-5 fundo text-light">
+                <Banner />
                 <Titulo>Como eu conheci a programação, e como isso se tornou meu sonho de profissão</Titulo>
                 <p>Em meados de 2022, eu conheci a Alura através de um influencer digital que estava divulgando uma imersão em Javascript gratuita para quem nunca tinha tido contato com programação. Naquele momento eu pensei, hum... Porque não? E me inscrevi.</p>
                 <p>No início tudo parece grego, e você acha que nunca vai conseguir, mas os instrutores foram extremamente didáticos, e ver as coisas fazendo sentido e funcionando foi mágico pra mim. Foi como se minha cabeça tivesse explodido (emoji de cabeça explodindo). Nunca pensei que pudesse aprender alguma coisa nova, e que parecia tão distante, com mais de 30 anos de idade.</p>

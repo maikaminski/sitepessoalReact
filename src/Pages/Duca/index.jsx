@@ -10,11 +10,13 @@ import duca6 from "../Duca/assets/ducaepolenta.jpg"
 import duca8 from "../Duca/assets/euduca.jpg"
 import duca9 from "../Duca/assets/euducapolentanenes.jpg"
 import duca10 from "../Duca/assets/eumaeduca.jpeg"
+import Banner from "../../components/Banner";
 
 export default function Duca() {
     return (
         <>
         <Navbar />
+        <Banner />
         <Titulo>Como eu conheci a Duca, e como ela se tornou o grande amor da minha vida</Titulo>
         <div className=" text-center fs-5 fundo text-light">
             <h3 >Como ela chegou:</h3>
